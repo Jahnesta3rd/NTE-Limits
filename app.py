@@ -7,7 +7,7 @@ import scipy.stats as stats
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("CPW_2022-2025_V2.csv")
+    df = pd.read_csv("CPW 2022-2025 V2.csv")
     df['Date'] = pd.to_datetime(df['Date'])
     return df
 
